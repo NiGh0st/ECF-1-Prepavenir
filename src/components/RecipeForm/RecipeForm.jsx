@@ -152,7 +152,28 @@ const RecipeForm = () => {
     };
 
     const handleSubmit = () => {
+        const storedRecipes = JSON.parse(localStorage.getItem('recipes')) || [];
+        storedRecipes.push(recipeData);
+
+        localStorage.setItem('recipes', JSON.stringify(storedRecipes));
+
         console.log('Recette ajoutée:', recipeData);
+
+        setRecipeData({
+            title: "",
+            type: "",
+            portions: "",
+            prepTime: { hours: "", minutes: "" },
+            cookTime: { hours: "", minutes: "" },
+            cookingMethod: "",
+            difficulty: "",
+            cost: "",
+            photo: "",
+            ingredients: [{ name: '', quantity: '', unit: '' }],
+            steps: [''],
+        });
+
+        setStep(1);
     };
 
     return (
@@ -421,8 +442,8 @@ const RecipeForm = () => {
                             Ajouter un ingrédient
                         </button>
                         {ingredientError &&
-                            <p className="error-message">Veuillez remplir tous les champs de l'ingrédient avant
-                                d'ajouter un autre.</p>}
+                            <p className="error-message">Veuillez remplir tous les champs de l&#39;ingrédient avant
+                                d&#39;ajouter un autre.</p>}
                     </div>
 
                     <div className="recipe-form__steps">
@@ -453,7 +474,7 @@ const RecipeForm = () => {
                             Ajouter une étape
                         </button>
                         {stepError &&
-                            <p className="error-message">Veuillez remplir l'étape actuelle avant d'en ajouter une
+                            <p className="error-message">Veuillez remplir l&#39;étape actuelle avant d&#39;en ajouter une
                                 nouvelle.</p>}
                     </div>
 
