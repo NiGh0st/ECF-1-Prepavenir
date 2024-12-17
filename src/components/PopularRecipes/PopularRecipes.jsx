@@ -7,7 +7,7 @@ const PopularRecipes = () => {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        fetch("/recipes.json")
+        fetch('/recipes.json')
             .then((response) => response.json())
             .then((data) => {
                 setRecipes(data.recipes);

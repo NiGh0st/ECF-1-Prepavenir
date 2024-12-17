@@ -20,7 +20,7 @@ const RecipeForm = () => {
     const nextStep = () => setStep(prevStep => prevStep + 1);
     const prevStep = () => setStep(prevStep => prevStep - 1);
 
-    const handleInputChange = (e) => {
+    const inputChange = (e) => {
         const {name, value} = e.target;
 
         if (name === 'title') {
@@ -33,7 +33,7 @@ const RecipeForm = () => {
         }));
     };
 
-    const handlePrepTimeChange = (e) => {
+    const prepTimeChange = (e) => {
         const {name, value} = e.target;
         setRecipeData(prevData => ({
             ...prevData,
@@ -44,7 +44,7 @@ const RecipeForm = () => {
         }));
     };
 
-    const handleCookTimeChange = (e) => {
+    const cookTimeChange = (e) => {
         const {name, value} = e.target;
         setRecipeData(prevData => ({
             ...prevData,
@@ -55,7 +55,7 @@ const RecipeForm = () => {
         }));
     };
 
-    const handleIngredientChange = (e, index) => {
+    const ingredientChange = (e, index) => {
         const {name, value} = e.target;
         const newIngredients = [...recipeData.ingredients];
         newIngredients[index][name] = value;
@@ -133,7 +133,7 @@ const RecipeForm = () => {
         }));
     };
 
-    const handleStepChange = (e, index) => {
+    const stepChange = (e, index) => {
         const {value} = e.target;
         const newSteps = [...recipeData.steps];
         newSteps[index] = value;
@@ -151,7 +151,7 @@ const RecipeForm = () => {
         }));
     };
 
-    const handleSubmit = () => {
+    const submitForm = () => {
         const storedRecipes = JSON.parse(localStorage.getItem('recipes')) || [];
         storedRecipes.push(recipeData);
 
@@ -193,7 +193,7 @@ const RecipeForm = () => {
                             placeholder="Nom de votre recette"
                             minLength="3"
                             value={recipeData.title}
-                            onChange={handleInputChange}
+                            onChange={inputChange}
                             className="recipe-form__input"
                         />
                         {titleError && (
@@ -235,7 +235,7 @@ const RecipeForm = () => {
                             min="1" max="20"
                             placeholder="0-20 minutes"
                             value={recipeData.portions}
-                            onChange={handleInputChange}
+                            onChange={inputChange}
                             className="recipe-form__input"
                         />
                     </label>
@@ -250,7 +250,7 @@ const RecipeForm = () => {
                                 min="0" max="10"
                                 placeholder="0-10 heures"
                                 value={recipeData.prepTime.hours}
-                                onChange={handlePrepTimeChange}
+                                onChange={prepTimeChange}
                                 className="recipe-form__input"
                             />
                         </label>
@@ -263,7 +263,7 @@ const RecipeForm = () => {
                                 min="0" max="60"
                                 placeholder="0-60 minutes"
                                 value={recipeData.prepTime.minutes}
-                                onChange={handlePrepTimeChange}
+                                onChange={prepTimeChange}
                                 className="recipe-form__input"
                             />
                         </label>
@@ -279,7 +279,7 @@ const RecipeForm = () => {
                                 min="0" max="10"
                                 placeholder="0-10 heures"
                                 value={recipeData.cookTime.hours}
-                                onChange={handleCookTimeChange}
+                                onChange={cookTimeChange}
                                 className="recipe-form__input"
                             />
                         </label>
@@ -292,7 +292,7 @@ const RecipeForm = () => {
                                 min="0" max="60"
                                 placeholder="0-60 minutes"
                                 value={recipeData.cookTime.minutes}
-                                onChange={handleCookTimeChange}
+                                onChange={cookTimeChange}
                                 className="recipe-form__input"
                             />
                         </label>
@@ -402,7 +402,7 @@ const RecipeForm = () => {
                                     type="text"
                                     name="name"
                                     value={ingredient.name}
-                                    onChange={(e) => handleIngredientChange(e, index)}
+                                    onChange={(e) => ingredientChange(e, index)}
                                     placeholder="Nom de l'ingrédient"
                                     className="recipe-form__input"
                                     required
@@ -411,7 +411,7 @@ const RecipeForm = () => {
                                     type="number"
                                     name="quantity"
                                     value={ingredient.quantity}
-                                    onChange={(e) => handleIngredientChange(e, index)}
+                                    onChange={(e) => ingredientChange(e, index)}
                                     placeholder="Quantité"
                                     className="recipe-form__input"
                                     required
@@ -420,7 +420,7 @@ const RecipeForm = () => {
                                     type="text"
                                     name="unit"
                                     value={ingredient.unit}
-                                    onChange={(e) => handleIngredientChange(e, index)}
+                                    onChange={(e) => ingredientChange(e, index)}
                                     placeholder="Unité (g, ml, kg, ect.)"
                                     className="recipe-form__input"
                                     required
@@ -452,7 +452,7 @@ const RecipeForm = () => {
                             <div key={index} className="recipe-form__steps--item">
                                 <textarea
                                     value={step}
-                                    onChange={(e) => handleStepChange(e, index)}
+                                    onChange={(e) => stepChange(e, index)}
                                     placeholder={`Décrire l'étape ${index + 1}`}
                                     className="recipe-form__input"
                                     required
@@ -588,7 +588,7 @@ const RecipeForm = () => {
                             Retour
                         </button>
                         <button
-                            onClick={handleSubmit}
+                            onClick={submitForm}
                             className="recipe-form__button"
                         >
                             Ajouter la recette

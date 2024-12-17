@@ -7,7 +7,7 @@ const RecipeDetail = ({recipe}) => {
         return savedFavorites ? JSON.parse(savedFavorites) : [];
     });
 
-    const handleAddToFavorites = (recipe) => {
+    const addToFavorites = (recipe) => {
         const updatedFavorites = [...favorites];
         const recipeIndex = updatedFavorites.findIndex((fav) => fav.id === recipe.id);
 
@@ -85,9 +85,8 @@ const RecipeDetail = ({recipe}) => {
                             </span>
                         </div>
 
-                        {/* Bouton de favoris */}
                         <div className="recipe-detail__info--bookmark">
-                            <button onClick={() => handleAddToFavorites(recipe)}>
+                            <button onClick={() => addToFavorites(recipe)}>
                                 <img
                                     src={isFavorite(recipe.id) ? "/favorite_r.svg" : "/favorite.svg"}
                                     alt={isFavorite(recipe.id) ? "Recette favorite" : "Ajouter aux favoris"}

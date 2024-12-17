@@ -26,16 +26,16 @@ const RecipeList = () => {
                     setRecipes(data.recipes);
                     setFilteredRecipes(data.recipes);
                 } else {
-                    console.error('Error: Data is not an array or contains `recipes` property');
+                    console.error('Erreur : Les données ne sont pas un tableau ou contiennent la propriété « recettes »');
                 }
             })
-            .catch((error) => console.error('Error loading recipes:', error));
+            .catch((error) => console.error('Erreur lors du chargement des recettes :', error));
 
         const savedFavorites = JSON.parse(localStorage.getItem('favorites')) || [];
         setFavorites(savedFavorites);
     }, []);
 
-    const handleFilterChange = (category, value) => {
+    const filterChange = (category, value) => {
         setFilters(prev => {
             const newFilters = {...prev};
             if (newFilters[category].includes(value)) {
@@ -47,7 +47,7 @@ const RecipeList = () => {
         });
     };
 
-    const handleSearchChange = (e) => {
+    const searchChange = (e) => {
         setSearchQuery(e.target.value);
     };
 
@@ -81,11 +81,11 @@ const RecipeList = () => {
         return recipe.prepTime.hours * 60 + recipe.prepTime.minutes + recipe.cookTime.hours * 60 + recipe.cookTime.minutes;
     };
 
-    const toggleFiltersVisibility = () => {
+    const filtersVisibility = () => {
         setIsFiltersVisible(!isFiltersVisible);
     };
 
-    const handleAddToFavorites = (recipe) => {
+    const addToFavorites = (recipe) => {
         const updatedFavorites = [...favorites];
         const recipeIndex = updatedFavorites.findIndex((fav) => fav.id === recipe.id);
 
@@ -112,15 +112,15 @@ const RecipeList = () => {
                         type="text"
                         placeholder="Rechercher une recette..."
                         value={searchQuery}
-                        onChange={handleSearchChange}
+                        onChange={searchChange}
                     />
                     <button onClick={applyFilters}>
-                        <img src="/search.svg" alt="Logo de filtre"/>
+                        <img src="/search.svg" alt="Logo de recherche"/>
                     </button>
                 </div>
 
                 <div className="list__filter__filters">
-                    <button onClick={toggleFiltersVisibility}>
+                    <button onClick={filtersVisibility}>
                         <img src="/filter.svg" alt="Logo de filtre"/>
                         {isFiltersVisible ? "Masquer les filtres" : "Filtrer par"}
                     </button>
@@ -129,7 +129,7 @@ const RecipeList = () => {
                         <div className="list__filter__filters__options">
                             <div className="list__filter__filters__options--filter">
                                 <span>
-                                    <img src="/filter_categories.svg" alt="Logo de filtre"/>
+                                    <img src="/filter_categories.svg" alt="Logo de catégorie"/>
                                     Catégorie
                                 </span>
                                 <div>
@@ -139,7 +139,7 @@ const RecipeList = () => {
                                                 type="checkbox"
                                                 id={`type-${type}`}
                                                 checked={filters.type.includes(type)}
-                                                onChange={() => handleFilterChange('type', type)}
+                                                onChange={() => filterChange('type', type)}
                                             />
                                             <label htmlFor={`type-${type}`}>{type}</label>
                                         </div>
@@ -149,7 +149,7 @@ const RecipeList = () => {
 
                             <div className="list__filter__filters__options--filter">
                                 <span>
-                                    <img src="/filter_portions.svg" alt="Logo de filtre"/>
+                                    <img src="/filter_portions.svg" alt="Logo de portion"/>
                                     Nombre de portions
                                 </span>
                                 <div>
@@ -159,7 +159,7 @@ const RecipeList = () => {
                                                 type="checkbox"
                                                 id={`portions-${portions}`}
                                                 checked={filters.portions.includes(portions.toString())}
-                                                onChange={() => handleFilterChange('portions', portions.toString())}
+                                                onChange={() => filterChange('portions', portions.toString())}
                                             />
                                             <label htmlFor={`portions-${portions}`}>{portions} portion(s)</label>
                                         </div>
@@ -169,7 +169,7 @@ const RecipeList = () => {
 
                             <div className="list__filter__filters__options--filter">
                                 <span>
-                                    <img src="/filter_time.svg" alt="Logo de filtre"/>
+                                    <img src="/filter_time.svg" alt="Logo de filtre temps"/>
                                     Temps total
                                 </span>
                                 <input
@@ -182,7 +182,7 @@ const RecipeList = () => {
 
                             <div className="list__filter__filters__options--filter">
                                 <span>
-                                    <img src="/filter_difficulty.svg" alt="Logo de filtre"/>
+                                    <img src="/filter_difficulty.svg" alt="Logo de filtre défficulté"/>
                                     Difficulté
                                 </span>
                                 <div>
@@ -192,7 +192,7 @@ const RecipeList = () => {
                                                 type="checkbox"
                                                 id={`difficulty-${difficulty}`}
                                                 checked={filters.difficulty.includes(difficulty)}
-                                                onChange={() => handleFilterChange('difficulty', difficulty)}
+                                                onChange={() => filterChange('difficulty', difficulty)}
                                             />
                                             <label htmlFor={`difficulty-${difficulty}`}>Niveau {difficulty}</label>
                                         </div>
@@ -202,7 +202,7 @@ const RecipeList = () => {
 
                             <div className="list__filter__filters__options--filter">
                                 <span>
-                                    <img src="/filter_cost.svg" alt="Logo de filtre"/>
+                                    <img src="/filter_cost.svg" alt="Logo de filtre de prix"/>
                                     Coût
                                 </span>
                                 <div>
@@ -212,7 +212,7 @@ const RecipeList = () => {
                                                 type="checkbox"
                                                 id={`cost-${cost}`}
                                                 checked={filters.cost.includes(cost.toString())}
-                                                onChange={() => handleFilterChange('cost', cost.toString())}
+                                                onChange={() => filterChange('cost', cost.toString())}
                                             />
                                             <label htmlFor={`cost-${cost}`}>
                                                 {cost === 1 ? "€" : cost === 2 ? "€€" : cost === 3 ? "€€€" : "€€€€"}
@@ -224,7 +224,7 @@ const RecipeList = () => {
 
                             <div className="list__filter__filters__options--filter">
                                 <span>
-                                    <img src="/filter_cookMethod.svg" alt="Logo de filtre"/>
+                                    <img src="/filter_cookMethod.svg" alt="Logo de filtre méthode de cuisson"/>
                                     Méthode de cuisson
                                 </span>
                                 <div>
@@ -234,7 +234,7 @@ const RecipeList = () => {
                                                 type="checkbox"
                                                 id={`method-${method}`}
                                                 checked={filters.cookingMethod.includes(method)}
-                                                onChange={() => handleFilterChange('cookingMethod', method)}
+                                                onChange={() => filterChange('cookingMethod', method)}
                                             />
                                             <label htmlFor={`method-${method}`}>{method}</label>
                                         </div>
@@ -244,7 +244,7 @@ const RecipeList = () => {
 
                             <div className="list__filter__filters__options--filter">
                                 <span>
-                                    <img src="/filter_country.svg" alt="Logo de filtre"/>
+                                    <img src="/filter_country.svg" alt="Logo de filtre pays"/>
                                     Pays
                                 </span>
                                 <div>
@@ -254,7 +254,7 @@ const RecipeList = () => {
                                                 type="checkbox"
                                                 id={`country-${country}`}
                                                 checked={filters.country.includes(country)}
-                                                onChange={() => handleFilterChange('country', country)}
+                                                onChange={() => filterChange('country', country)}
                                             />
                                             <label htmlFor={`country-${country}`}>{country}</label>
                                         </div>
@@ -264,7 +264,7 @@ const RecipeList = () => {
                         </div>
                     )}
                     <button onClick={applyFilters}>
-                        <img src="/check.svg" alt="Logo de filtre"/>
+                        <img src="/check.svg" alt="Logo de check"/>
                         Appliquer les filtres
                     </button>
                 </div>
@@ -316,7 +316,7 @@ const RecipeList = () => {
                             </div>
                         </Link>
                         <div className="recipe__card__bookmark">
-                            <button onClick={() => handleAddToFavorites(recipe)}>
+                            <button onClick={() => addToFavorites(recipe)}>
                                 <img
                                     src={isFavorite(recipe.id) ? "/favorite_r.svg" : "/favorite.svg"}
                                     alt={isFavorite(recipe.id) ? "Recette favorite" : "Ajouter aux favoris"}
