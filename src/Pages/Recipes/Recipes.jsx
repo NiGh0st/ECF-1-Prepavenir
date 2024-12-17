@@ -1,13 +1,12 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import RecipeDetail from '../../components/RecipeDetail/RecipeDetail'; // Import du composant de détail
+import RecipeDetail from '../../components/RecipeDetail/RecipeDetail';
 
 const Recipe = () => {
-    const { id } = useParams(); // Récupère l'ID de la recette depuis l'URL
+    const { id } = useParams();
     const [recipe, setRecipe] = useState(null);
 
     useEffect(() => {
-        // Charger les recettes et filtrer par ID
         fetch('/recipes.json')
             .then(response => response.json())
             .then(data => {
@@ -18,7 +17,7 @@ const Recipe = () => {
     }, [id]);
 
     if (!recipe) {
-        return <div>Chargement...</div>; // Afficher un message pendant le chargement
+        return <div>Chargement...</div>;
     }
 
     return (
