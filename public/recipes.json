@@ -1,0 +1,2889 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Pâtes à la Carbonara",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookingMethod": "Wok",
+      "difficulty": 2,
+      "cost": 3,
+      "photo": "/meals/carbonara.webp",
+      "ingredients": [
+        "400g de pâtes",
+        "150g de lardons",
+        "2 œufs",
+        "100g de parmesan râpé",
+        "1 gousse d'ail",
+        "Huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Faire cuire les pâtes selon les instructions du paquet.",
+        "Faire chauffer l'huile d'olive dans une poêle et ajouter les lardons.",
+        "Ajouter l'ail écrasé et cuire jusqu'à ce que les lardons soient bien dorés.",
+        "Battre les œufs et le parmesan dans un bol, ajouter un peu d'eau de cuisson des pâtes.",
+        "Égoutter les pâtes et les ajouter aux lardons, puis verser le mélange œufs-parmesan.",
+        "Mélanger rapidement pour enrober les pâtes et servir immédiatement."
+      ],
+      "country": "Italie"
+    },
+    {
+      "id": "2",
+      "title": "Boeuf bourguignon",
+      "type": "Plat principal",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookTime": {
+        "hours": 2,
+        "minutes": 0
+      },
+      "cookingMethod": "Mijoter",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/boeuf_bourguignon.webp",
+      "ingredients": [
+        "1,5 kg de bœuf (gîte ou paleron)",
+        "1 bouteille de vin rouge",
+        "2 oignons",
+        "3 carottes",
+        "2 gousses d'ail",
+        "2 branches de thym",
+        "1 feuille de laurier",
+        "200g de lardons",
+        "300g de champignons de Paris",
+        "Huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Couper la viande en cubes de 3 cm.",
+        "Faire revenir les lardons et la viande dans une cocotte avec de l'huile d'olive.",
+        "Ajouter les oignons et les carottes coupées en rondelles.",
+        "Verser le vin rouge et ajouter l'ail, le thym, et le laurier.",
+        "Laisser mijoter à feu doux pendant 2 heures.",
+        "Ajouter les champignons coupés et continuer la cuisson pendant 30 minutes.",
+        "Servir chaud avec des pommes de terre ou du pain."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "3",
+      "title": "Paella",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 40
+      },
+      "cookingMethod": "Poêle",
+      "difficulty": 3,
+      "cost": 4,
+      "photo": "/meals/paella.webp",
+      "ingredients": [
+        "300g de riz",
+        "400g de poulet",
+        "200g de crevettes",
+        "200g de moules",
+        "1 poivron rouge",
+        "1 oignon",
+        "1 gousse d'ail",
+        "1 tomate",
+        "300ml de bouillon de volaille",
+        "Safran",
+        "Huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Faire revenir le poulet coupé en morceaux dans une poêle avec de l'huile d'olive.",
+        "Ajouter l'oignon, l'ail et le poivron coupé en dés, puis faire cuire 5 minutes.",
+        "Ajouter la tomate coupée, le riz et le safran.",
+        "Verser le bouillon de volaille et laisser cuire jusqu'à ce que le riz soit tendre.",
+        "Ajouter les crevettes et les moules et poursuivre la cuisson jusqu'à ce qu'elles soient ouvertes.",
+        "Servir immédiatement."
+      ],
+      "country": "Espagne"
+    },
+    {
+      "id": "4",
+      "title": "Chili con carne",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 1,
+        "minutes": 0
+      },
+      "cookingMethod": "Poêle",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/chili_con_carne.webp",
+      "ingredients": [
+        "500g de viande hachée",
+        "1 oignon",
+        "1 poivron vert",
+        "2 gousses d'ail",
+        "400g de haricots rouges",
+        "400g de tomates concassées",
+        "1 cuil. à soupe de cumin",
+        "1 cuil. à soupe de paprika",
+        "Piment en poudre",
+        "Sel et poivre",
+        "Huile d'olive"
+      ],
+      "steps": [
+        "Faire revenir l'oignon et l'ail dans une poêle avec de l'huile d'olive.",
+        "Ajouter la viande hachée et cuire jusqu'à ce qu'elle soit bien dorée.",
+        "Ajouter le poivron, les épices, les haricots rouges et les tomates concassées.",
+        "Laisser mijoter pendant 45 minutes à feu doux.",
+        "Ajuster l'assaisonnement et servir avec du riz ou des tortillas."
+      ],
+      "country": "Mexique"
+    },
+    {
+      "id": "5",
+      "title": "Poulet rôti",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 1,
+        "minutes": 15
+      },
+      "cookingMethod": "Four",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/poulet_roti.webp",
+      "ingredients": [
+        "1 poulet entier",
+        "2 gousses d'ail",
+        "1 citron",
+        "Romarin",
+        "Huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200°C.",
+        "Farcir le poulet avec l'ail, le citron et le romarin.",
+        "Badigeonner le poulet d'huile d'olive et assaisonner.",
+        "Enfourner pour 1 heure et 15 minutes, en arrosant régulièrement.",
+        "Servir avec des pommes de terre rôties ou une salade."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "6",
+      "title": "Moussaka",
+      "type": "Plat principal",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 40
+      },
+      "cookTime": {
+        "hours": 1,
+        "minutes": 0
+      },
+      "cookingMethod": "Four",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/moussaka.webp",
+      "ingredients": [
+        "2 aubergines",
+        "500g de viande hachée d'agneau",
+        "1 oignon",
+        "2 tomates",
+        "1 cuil. à soupe de cannelle",
+        "Beurre",
+        "500ml de béchamel",
+        "1 œuf",
+        "Fromage râpé",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Couper les aubergines en tranches et les faire frire.",
+        "Faire revenir l'oignon et la viande hachée dans une poêle.",
+        "Ajouter les tomates, la cannelle, le sel et le poivre.",
+        "Monter la moussaka en couches alternées d'aubergines et de viande.",
+        "Recouvrir de béchamel et saupoudrer de fromage râpé.",
+        "Faire cuire au four pendant 45 minutes à 180°C."
+      ],
+      "country": "Grèce"
+    },
+    {
+      "id": "7",
+      "title": "Couscous aux légumes",
+      "type": "Plat principal",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookTime": {
+        "hours": 1,
+        "minutes": 0
+      },
+      "cookingMethod": "Vapeur",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/couscous.webp",
+      "ingredients": [
+        "300g de semoule de couscous",
+        "1 courgette",
+        "1 carotte",
+        "1 navet",
+        "1 poivron",
+        "1 oignon",
+        "1 cuil. à soupe de cumin",
+        "Huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Cuire les légumes coupés en morceaux à la vapeur.",
+        "Faire cuire la semoule de couscous à la vapeur également.",
+        "Faire revenir l'oignon et les légumes dans une poêle avec de l'huile d'olive.",
+        "Mélanger les légumes avec le couscous et assaisonner.",
+        "Servir chaud."
+      ],
+      "country": "Maroc"
+    },
+    {
+      "id": "8",
+      "title": "Curry de légumes",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 40
+      },
+      "cookingMethod": "Poêle",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/curry_legumes.webp",
+      "ingredients": [
+        "1 aubergine",
+        "2 pommes de terre",
+        "1 poivron",
+        "1 oignon",
+        "200g de tomates",
+        "200ml de lait de coco",
+        "1 cuil. à soupe de curry",
+        "Huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Faire revenir l'oignon et les légumes coupés en dés dans de l'huile d'olive.",
+        "Ajouter les tomates et le curry, puis laisser mijoter pendant 20 minutes.",
+        "Verser le lait de coco et continuer la cuisson pendant 10 minutes.",
+        "Servir avec du riz basmati."
+      ],
+      "country": "Inde"
+    },
+    {
+      "id": "9",
+      "title": "Lasagnes végétariennes",
+      "type": "Plat principal",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 45
+      },
+      "cookTime": {
+        "hours": 1,
+        "minutes": 0
+      },
+      "cookingMethod": "Four",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/lasagnes_vegetariennes.webp",
+      "ingredients": [
+        "12 feuilles de lasagnes",
+        "400g d'épinards",
+        "500g de ricotta",
+        "1 oignon",
+        "2 gousses d'ail",
+        "500g de tomates concassées",
+        "Béchamel",
+        "Fromage râpé",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Faire cuire les épinards et les mélanger avec la ricotta.",
+        "Faire revenir l'oignon et l'ail dans une poêle, puis ajouter les tomates.",
+        "Monter les lasagnes en couches successives.",
+        "Recouvrir de béchamel et de fromage râpé.",
+        "Faire cuire au four pendant 45 minutes à 180°C."
+      ],
+      "country": "Italie"
+    },
+    {
+      "id": "10",
+      "title": "Ratatouille",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 45
+      },
+      "cookingMethod": "Poêle",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/ratatouille.webp",
+      "ingredients": [
+        "1 aubergine",
+        "1 courgette",
+        "1 poivron",
+        "2 tomates",
+        "1 oignon",
+        "1 gousse d'ail",
+        "Huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Faire revenir l'oignon et l'ail dans une poêle avec de l'huile d'olive.",
+        "Ajouter les légumes coupés en morceaux et cuire à feu doux.",
+        "Laisser mijoter pendant 30 minutes, en remuant régulièrement.",
+        "Assaisonner et servir chaud."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "11",
+      "title": "Salade Caprese",
+      "type": "Entrée",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/salade_caprese.webp",
+      "ingredients": [
+        "3 tomates",
+        "200g de mozzarella",
+        "Feuilles de basilic",
+        "Huile d'olive",
+        "Vinaigre balsamique",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Couper les tomates et la mozzarella en tranches.",
+        "Disposer les tranches de tomates et de mozzarella sur un plat.",
+        "Ajouter des feuilles de basilic frais.",
+        "Arroser d'huile d'olive et de vinaigre balsamique.",
+        "Assaisonner avec du sel et du poivre, puis servir immédiatement."
+      ],
+      "country": "Italie"
+    },
+    {
+      "id": "12",
+      "title": "Gaspacho",
+      "type": "Entrée",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/gaspacho.webp",
+      "ingredients": [
+        "4 tomates",
+        "1 concombre",
+        "1 poivron vert",
+        "1 oignon",
+        "2 gousses d'ail",
+        "1 cuil. à soupe de vinaigre",
+        "50ml d'huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Laver et couper les légumes en morceaux.",
+        "Mixer tous les ingrédients dans un blender jusqu'à obtenir une consistance lisse.",
+        "Réfrigérer le gaspacho pendant au moins 1 heure.",
+        "Servir bien frais avec un filet d'huile d'olive et un peu de sel."
+      ],
+      "country": "Espagne"
+    },
+    {
+      "id": "13",
+      "title": "Soupe à l'oignon gratinée",
+      "type": "Entrée",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookingMethod": "Mijoter",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/soupe_oignon.webp",
+      "ingredients": [
+        "6 oignons",
+        "1 litre de bouillon de légumes",
+        "1 cuil. à soupe de sucre",
+        "200g de fromage râpé (gruyère)",
+        "4 tranches de pain",
+        "Beurre",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Faire fondre les oignons émincés dans une grande casserole avec du beurre et le sucre.",
+        "Ajouter le bouillon de légumes, saler et poivrer, puis laisser mijoter pendant 30 minutes.",
+        "Faire griller les tranches de pain.",
+        "Servir la soupe dans des bols, ajouter une tranche de pain grillé et recouvrir de fromage râpé.",
+        "Faire gratiner sous le gril du four pendant 5 minutes."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "14",
+      "title": "Tartare de saumon",
+      "type": "Entrée",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 2,
+      "cost": 3,
+      "photo": "/meals/tartare_saumon.webp",
+      "ingredients": [
+        "400g de saumon frais",
+        "1 échalote",
+        "1 cuil. à soupe de câpres",
+        "Jus de 1 citron",
+        "Aneth frais",
+        "Huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Couper le saumon en petits dés.",
+        "Hacher finement l'échalote et l'aneth.",
+        "Dans un bol, mélanger le saumon, l'échalote, les câpres, l'aneth, le jus de citron et l'huile d'olive.",
+        "Assaisonner avec du sel et du poivre.",
+        "Servir immédiatement, accompagné de pain grillé ou de salade."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "15",
+      "title": "Hummus",
+      "type": "Entrée",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/hummus.webp",
+      "ingredients": [
+        "400g de pois chiches cuits",
+        "2 cuil. à soupe de tahini",
+        "1 gousse d'ail",
+        "Le jus de 1 citron",
+        "2 cuil. à soupe d'huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Mixer les pois chiches, le tahini, l'ail, le jus de citron et l'huile d'olive dans un blender.",
+        "Ajouter un peu d'eau si nécessaire pour obtenir une texture crémeuse.",
+        "Assaisonner avec du sel et du poivre.",
+        "Servir avec du pain pita ou des légumes coupés."
+      ],
+      "country": "Liban"
+    },
+    {
+      "id": "16",
+      "title": "Bruschetta",
+      "type": "Entrée",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookingMethod": "Grillage",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/bruschetta.webp",
+      "ingredients": [
+        "4 tranches de pain de campagne",
+        "2 tomates",
+        "1 gousse d'ail",
+        "Basilic frais",
+        "Huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Griller les tranches de pain.",
+        "Hacher les tomates et le basilic.",
+        "Frotter les tranches de pain avec la gousse d'ail.",
+        "Ajouter les tomates hachées, l'huile d'olive, le sel et le poivre sur le pain.",
+        "Servir immédiatement."
+      ],
+      "country": "Italie"
+    },
+    {
+      "id": "17",
+      "title": "Ceviche",
+      "type": "Entrée",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Réfrigération",
+      "difficulty": 2,
+      "cost": 3,
+      "photo": "/meals/ceviche.webp",
+      "ingredients": [
+        "400g de poisson blanc frais",
+        "1 oignon rouge",
+        "1 piment rouge",
+        "Le jus de 3 citrons verts",
+        "Coriandre fraîche",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Couper le poisson en petits dés.",
+        "Hacher finement l'oignon et le piment.",
+        "Mélanger le poisson, l'oignon, le piment et le jus de citron dans un bol.",
+        "Laisser mariner au réfrigérateur pendant 30 minutes.",
+        "Ajouter la coriandre hachée, saler et poivrer, puis servir immédiatement."
+      ],
+      "country": "Pérou"
+    },
+    {
+      "id": "18",
+      "title": "Rillettes de canard",
+      "type": "Entrée",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 2,
+        "minutes": 0
+      },
+      "cookingMethod": "Cuisson lente",
+      "difficulty": 2,
+      "cost": 3,
+      "photo": "/meals/rillettes_canard.webp",
+      "ingredients": [
+        "400g de confit de canard",
+        "1 oignon",
+        "1 cuil. à soupe de thym",
+        "50g de graisse de canard",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Effilocher le confit de canard.",
+        "Faire revenir l'oignon émincé dans la graisse de canard.",
+        "Ajouter la viande effilochée, le thym, saler et poivrer.",
+        "Cuire à feu doux pendant 2 heures en remuant régulièrement.",
+        "Laisser refroidir et servir avec du pain de campagne."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "19",
+      "title": "Pâté de foie gras",
+      "type": "Entrée",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookTime": {
+        "hours": 1,
+        "minutes": 0
+      },
+      "cookingMethod": "Bain-marie",
+      "difficulty": 3,
+      "cost": 4,
+      "photo": "/meals/pate_foie_gras.webp",
+      "ingredients": [
+        "500g de foie gras",
+        "1 cuil. à soupe de sel",
+        "1 cuil. à café de poivre",
+        "30g de cognac",
+        "1 cuil. à soupe de sucre",
+        "Pains de mie"
+      ],
+      "steps": [
+        "Assaisonner le foie gras avec le sel, le poivre et le cognac.",
+        "Placer le foie gras dans une terrine et cuire au bain-marie pendant 1 heure.",
+        "Laisser refroidir et reposer pendant 24 heures.",
+        "Servir froid avec des tranches de pain de mie."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "20",
+      "title": "Salade de chèvre chaud",
+      "type": "Entrée",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookingMethod": "Grillade",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/salade_chevre_chaud.webp",
+      "ingredients": [
+        "4 tranches de fromage de chèvre",
+        "4 tranches de pain",
+        "Miel",
+        "Salade verte",
+        "Huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Griller les tranches de pain.",
+        "Placer une tranche de fromage de chèvre sur chaque morceau de pain et faire dorer sous le grill.",
+        "Dresser les assiettes avec la salade verte.",
+        "Déposer les tranches de pain avec le fromage sur la salade, arroser de miel et d'huile d'olive."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "21",
+      "title": "Tarte Tatin",
+      "type": "Dessert",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 40
+      },
+      "cookingMethod": "Four",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/tarte_tatin.webp",
+      "ingredients": [
+        "6 pommes",
+        "100g de beurre",
+        "150g de sucre",
+        "1 pâte brisée",
+        "1 gousse de vanille"
+      ],
+      "steps": [
+        "Peler les pommes, les couper en quartiers et les faire revenir dans du beurre avec le sucre et la vanille.",
+        "Lorsque les pommes sont dorées, les disposer dans un moule à tarte.",
+        "Recouvrir les pommes de pâte brisée et enfourner à 180°C pendant 30 minutes.",
+        "Laisser refroidir quelques minutes, puis retourner la tarte et servir."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "22",
+      "title": "Tiramisu",
+      "type": "Dessert",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Réfrigération",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/tiramisu.webp",
+      "ingredients": [
+        "250g de mascarpone",
+        "3 œufs",
+        "100g de sucre",
+        "200g de biscuits à la cuillère",
+        "200ml de café fort",
+        "Cacao en poudre"
+      ],
+      "steps": [
+        "Séparer les blancs des jaunes d'œufs.",
+        "Fouetter les jaunes avec le sucre, puis ajouter le mascarpone.",
+        "Monter les blancs en neige et les incorporer délicatement.",
+        "Tremper les biscuits dans le café et les disposer dans un plat.",
+        "Recouvrir les biscuits du mélange à base de mascarpone, puis répéter l'opération.",
+        "Saupoudrer de cacao et réfrigérer pendant 4 heures avant de servir."
+      ],
+      "country": "Italie"
+    },
+    {
+      "id": "23",
+      "title": "Crème brûlée",
+      "type": "Dessert",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 1,
+        "minutes": 0
+      },
+      "cookingMethod": "Bain-marie",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/creme_brulee.webp",
+      "ingredients": [
+        "500ml de crème liquide",
+        "5 jaunes d'œufs",
+        "100g de sucre",
+        "1 gousse de vanille",
+        "Cassonade"
+      ],
+      "steps": [
+        "Faire chauffer la crème avec la gousse de vanille fendue.",
+        "Blanchir les jaunes d'œufs avec le sucre, puis ajouter la crème chaude.",
+        "Répartir la préparation dans des ramequins et cuire au bain-marie à 160°C pendant 45 minutes.",
+        "Laisser refroidir, puis saupoudrer de cassonade et caraméliser avec un chalumeau avant de servir."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "24",
+      "title": "Mousse au chocolat",
+      "type": "Dessert",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookingMethod": "Réfrigération",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/mousse_chocolat.webp",
+      "ingredients": [
+        "200g de chocolat noir",
+        "4 œufs",
+        "30g de sucre",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Faire fondre le chocolat au bain-marie.",
+        "Séparer les blancs des jaunes d'œufs, fouetter les jaunes avec le sucre.",
+        "Incorporer le chocolat fondu aux jaunes d'œufs.",
+        "Monter les blancs en neige avec une pincée de sel, puis les ajouter délicatement à la préparation.",
+        "Réfrigérer pendant 2 heures avant de servir."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "25",
+      "title": "Madeleines",
+      "type": "Dessert",
+      "portions": 12,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 12
+      },
+      "cookingMethod": "Four",
+      "difficulty": 1,
+      "cost": 1,
+      "photo": "/meals/madeleines.webp",
+      "ingredients": [
+        "2 œufs",
+        "100g de sucre",
+        "100g de beurre fondu",
+        "100g de farine",
+        "1/2 sachet de levure chimique",
+        "Zeste d'un citron"
+      ],
+      "steps": [
+        "Fouetter les œufs avec le sucre.",
+        "Ajouter le beurre fondu, la farine, la levure et le zeste de citron.",
+        "Verser la pâte dans des moules à madeleines et cuire au four à 180°C pendant 12 minutes.",
+        "Laisser refroidir avant de déguster."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "26",
+      "title": "Cheesecake",
+      "type": "Dessert",
+      "portions": 8,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 1,
+        "minutes": 30
+      },
+      "cookingMethod": "Four",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/cheesecake.webp",
+      "ingredients": [
+        "200g de biscuits digestifs",
+        "100g de beurre",
+        "500g de fromage frais",
+        "100g de sucre",
+        "3 œufs",
+        "200ml de crème liquide"
+      ],
+      "steps": [
+        "Mixer les biscuits et mélanger avec le beurre fondu.",
+        "Tasser le mélange dans un moule et cuire 10 minutes à 180°C.",
+        "Fouetter le fromage frais avec le sucre, ajouter les œufs, puis la crème.",
+        "Verser la préparation sur la croûte de biscuits et cuire au four pendant 1 heure.",
+        "Laisser refroidir avant de réfrigérer pendant 4 heures."
+      ],
+      "country": "États-Unis"
+    },
+    {
+      "id": "27",
+      "title": "Clafoutis aux cerises",
+      "type": "Dessert",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 40
+      },
+      "cookingMethod": "Four",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/clafoutis_cerises.webp",
+      "ingredients": [
+        "500g de cerises",
+        "3 œufs",
+        "100g de sucre",
+        "100g de farine",
+        "300ml de lait",
+        "1 cuil. à soupe de vanille"
+      ],
+      "steps": [
+        "Beurrer un moule et y disposer les cerises.",
+        "Fouetter les œufs avec le sucre, ajouter la farine, la vanille et le lait.",
+        "Verser la préparation sur les cerises et cuire au four à 180°C pendant 40 minutes.",
+        "Servir tiède ou froid."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "28",
+      "title": "Profiteroles",
+      "type": "Dessert",
+      "portions": 8,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookingMethod": "Four",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/profiteroles.webp",
+      "ingredients": [
+        "100g de beurre",
+        "150g de farine",
+        "4 œufs",
+        "200g de crème chantilly",
+        "200g de chocolat noir"
+      ],
+      "steps": [
+        "Faire fondre le beurre dans de l'eau, ajouter la farine et cuire jusqu'à formation d'une pâte.",
+        "Incorporer les œufs un à un, puis former des boules sur une plaque et cuire au four à 200°C pendant 20 minutes.",
+        "Une fois les choux refroidis, les remplir de crème chantilly.",
+        "Faire fondre le chocolat et napper les profiteroles avant de servir."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "29",
+      "title": "Soufflé au chocolat",
+      "type": "Dessert",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookingMethod": "Four",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/souffle_chocolat.webp",
+      "ingredients": [
+        "150g de chocolat noir",
+        "4 œufs",
+        "50g de sucre",
+        "30g de beurre",
+        "1 cuil. à soupe de farine"
+      ],
+      "steps": [
+        "Faire fondre le chocolat avec le beurre.",
+        "Fouetter les œufs avec le sucre, puis ajouter le chocolat fondu.",
+        "Incorporer la farine, puis verser dans des ramequins beurrés.",
+        "Cuire au four à 180°C pendant 15 à 20 minutes.",
+        "Servir immédiatement."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "30",
+      "title": "Panna Cotta",
+      "type": "Dessert",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookingMethod": "Réfrigération",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/panna_cotta.webp",
+      "ingredients": [
+        "250ml de crème liquide",
+        "200ml de lait",
+        "50g de sucre",
+        "2g de gélatine",
+        "1 gousse de vanille"
+      ],
+      "steps": [
+        "Faire chauffer la crème, le lait et le sucre avec la vanille.",
+        "Faire ramollir la gélatine dans de l'eau froide, puis l'incorporer au mélange chaud.",
+        "Verser la préparation dans des ramequins et réfrigérer pendant 4 heures.",
+        "Servir avec un coulis de fruits rouges."
+      ],
+      "country": "Italie"
+    },
+    {
+      "id": "31",
+      "title": "Purée de pommes de terre",
+      "type": "Accompagnement",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookingMethod": "À l'eau",
+      "difficulty": 1,
+      "cost": 1,
+      "photo": "/meals/puree_pommes_terre.webp",
+      "ingredients": [
+        "1 kg de pommes de terre",
+        "50g de beurre",
+        "100ml de lait",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Éplucher les pommes de terre et les couper en morceaux.",
+        "Les faire cuire dans une grande casserole d'eau salée pendant 20 minutes.",
+        "Les égoutter et les écraser avec un presse-purée.",
+        "Ajouter le beurre et le lait, puis mélanger jusqu'à obtenir une purée lisse.",
+        "Assaisonner avec du sel et du poivre, puis servir chaud."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "32",
+      "title": "Riz basmati parfumé",
+      "type": "Accompagnement",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookingMethod": "À l'eau",
+      "difficulty": 1,
+      "cost": 1,
+      "photo": "/meals/riz_basmati.webp",
+      "ingredients": [
+        "250g de riz basmati",
+        "500ml d'eau",
+        "1 feuille de laurier",
+        "Sel"
+      ],
+      "steps": [
+        "Rincer le riz basmati sous l'eau froide.",
+        "Dans une casserole, porter l'eau à ébullition avec la feuille de laurier et du sel.",
+        "Ajouter le riz, réduire le feu, couvrir et laisser cuire pendant 10-12 minutes.",
+        "Éteindre le feu, laisser reposer 5 minutes avant de servir."
+      ],
+      "country": "Inde"
+    },
+    {
+      "id": "33",
+      "title": "Gratin dauphinois",
+      "type": "Accompagnement",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 1,
+        "minutes": 15
+      },
+      "cookingMethod": "Four",
+      "difficulty": 3,
+      "cost": 2,
+      "photo": "/meals/gratin_dauphinois.webp",
+      "ingredients": [
+        "1 kg de pommes de terre",
+        "500ml de crème liquide",
+        "2 gousses d'ail",
+        "100g de fromage râpé",
+        "Beurre",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C.",
+        "Éplucher et couper les pommes de terre en fines rondelles.",
+        "Frotter un plat à gratin avec une gousse d'ail et le beurrer.",
+        "Disposer les rondelles de pommes de terre dans le plat, puis verser la crème dessus.",
+        "Assaisonner avec du sel et du poivre, et parsemer de fromage râpé.",
+        "Enfourner pendant 1 heure, jusqu'à ce que le gratin soit doré et fondant."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "34",
+      "title": "Légumes rôtis au four",
+      "type": "Accompagnement",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookingMethod": "Four",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/legumes_rotis.webp",
+      "ingredients": [
+        "2 carottes",
+        "2 courgettes",
+        "1 poivron",
+        "1 aubergine",
+        "2 cuil. à soupe d'huile d'olive",
+        "Herbes de Provence",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200°C.",
+        "Laver et couper les légumes en morceaux.",
+        "Les disposer sur une plaque de cuisson, arroser d'huile d'olive et assaisonner.",
+        "Saupoudrer d'herbes de Provence et cuire au four pendant 30 minutes, en retournant à mi-cuisson."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "35",
+      "title": "Pommes de terre sautées",
+      "type": "Accompagnement",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookingMethod": "Poêle",
+      "difficulty": 2,
+      "cost": 1,
+      "photo": "/meals/pommes_terre_sautees.webp",
+      "ingredients": [
+        "1 kg de pommes de terre",
+        "30g de beurre",
+        "2 cuil. à soupe d'huile d'olive",
+        "Sel et poivre",
+        "Persil frais"
+      ],
+      "steps": [
+        "Éplucher et couper les pommes de terre en dés.",
+        "Faire chauffer le beurre et l'huile dans une poêle.",
+        "Ajouter les pommes de terre et les faire dorer à feu moyen pendant 20 minutes, en les retournant régulièrement.",
+        "Assaisonner de sel, de poivre et parsemer de persil frais avant de servir."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "36",
+      "title": "Chou-fleur vapeur",
+      "type": "Accompagnement",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookingMethod": "Vapeur",
+      "difficulty": 1,
+      "cost": 1,
+      "photo": "/meals/chou_fleur_vapeur.webp",
+      "ingredients": [
+        "1 chou-fleur",
+        "Sel",
+        "Beurre (facultatif)"
+      ],
+      "steps": [
+        "Détacher les fleurettes du chou-fleur.",
+        "Faire cuire à la vapeur pendant 15 minutes jusqu'à ce qu'il soit tendre.",
+        "Assaisonner de sel et ajouter du beurre si souhaité."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "37",
+      "title": "Carottes râpées",
+      "type": "Accompagnement",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 1,
+      "photo": "/meals/carottes_rapees.webp",
+      "ingredients": [
+        "4 carottes",
+        "1 cuil. à soupe de vinaigre",
+        "1 cuil. à soupe d'huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Râper les carottes.",
+        "Les mélanger avec le vinaigre, l'huile d'olive, du sel et du poivre.",
+        "Servir immédiatement ou réfrigérer pour plus de fraîcheur."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "38",
+      "title": "Poêlée de champignons",
+      "type": "Accompagnement",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookingMethod": "Poêle",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/poelee_champignons.webp",
+      "ingredients": [
+        "500g de champignons de Paris",
+        "2 cuil. à soupe de beurre",
+        "2 gousses d'ail",
+        "Persil frais",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Laver et couper les champignons en lamelles.",
+        "Faire chauffer le beurre dans une poêle, ajouter l'ail haché et faire revenir.",
+        "Ajouter les champignons et cuire jusqu'à ce qu'ils soient tendres, environ 10 minutes.",
+        "Assaisonner de sel, de poivre et ajouter du persil frais avant de servir."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "39",
+      "title": "Salade de tomates et mozzarella",
+      "type": "Accompagnement",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/salade_tomates_mozzarella.webp",
+      "ingredients": [
+        "4 tomates",
+        "200g de mozzarella",
+        "Basilic frais",
+        "Huile d'olive",
+        "Vinaigre balsamique"
+      ],
+      "steps": [
+        "Couper les tomates et la mozzarella en tranches.",
+        "Disposer les tranches de tomates et de mozzarella sur un plat.",
+        "Arroser d'huile d'olive, de vinaigre balsamique et garnir de basilic frais."
+      ],
+      "country": "Italie"
+    },
+    {
+      "id": "40",
+      "title": "Taboulé",
+      "type": "Accompagnement",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/taboule.webp",
+      "ingredients": [
+        "200g de semoule",
+        "1 concombre",
+        "2 tomates",
+        "1 oignon",
+        "Persil frais",
+        "Menthe fraîche",
+        "Jus de citron",
+        "Huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Faire cuire la semoule selon les instructions sur l'emballage.",
+        "Couper le concombre, les tomates et l'oignon en petits dés.",
+        "Hacher le persil et la menthe.",
+        "Mélanger tous les ingrédients"
+      ],
+      "country": "Liban"
+    },
+    {
+      "id": "41",
+      "title": "Mojito sans alcool",
+      "type": "Boisson",
+      "portions": 2,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/mojito_sans_alcool.webp",
+      "ingredients": [
+        "10 feuilles de menthe",
+        "1 citron vert",
+        "1 cuil. à soupe de sucre",
+        "200ml d'eau pétillante",
+        "Glaçons"
+      ],
+      "steps": [
+        "Dans un verre, écraser les feuilles de menthe avec le sucre.",
+        "Presser le citron vert et ajouter le jus dans le verre.",
+        "Ajouter des glaçons et verser l'eau pétillante.",
+        "Mélanger et servir immédiatement."
+      ],
+      "country": "Cuba"
+    },
+    {
+      "id": "42",
+      "title": "Jus de pastèque frais",
+      "type": "Boisson",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/jus_pasteque.webp",
+      "ingredients": [
+        "500g de pastèque",
+        "1 cuil. à soupe de miel",
+        "Quelques feuilles de menthe"
+      ],
+      "steps": [
+        "Couper la pastèque en morceaux et enlever les graines.",
+        "Mixer les morceaux de pastèque avec le miel.",
+        "Filtrer le jus pour enlever la pulpe.",
+        "Garnir avec des feuilles de menthe et servir bien frais."
+      ],
+      "country": "Global"
+    },
+    {
+      "id": "43",
+      "title": "Café glacé au lait",
+      "type": "Boisson",
+      "portions": 2,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/cafe_glace_lait.webp",
+      "ingredients": [
+        "2 tasses de café fort",
+        "200ml de lait",
+        "Glaçons",
+        "Sucre au goût"
+      ],
+      "steps": [
+        "Préparer le café fort et le laisser refroidir.",
+        "Ajouter le sucre à votre convenance.",
+        "Verser le café refroidi dans un verre rempli de glaçons.",
+        "Compléter avec le lait froid et servir immédiatement."
+      ],
+      "country": "Global"
+    },
+    {
+      "id": "44",
+      "title": "Smoothie tropical",
+      "type": "Boisson",
+      "portions": 2,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/smoothie_tropical.webp",
+      "ingredients": [
+        "1 mangue",
+        "1 banane",
+        "200ml de lait de coco",
+        "1 cuil. à soupe de miel"
+      ],
+      "steps": [
+        "Peler et couper la mangue et la banane en morceaux.",
+        "Mettre les fruits dans un mixeur avec le lait de coco et le miel.",
+        "Mixer jusqu'à obtenir une texture lisse.",
+        "Servir frais dans des verres."
+      ],
+      "country": "Global"
+    },
+    {
+      "id": "45",
+      "title": "Chocolat chaud à la vanille",
+      "type": "Boisson",
+      "portions": 2,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookingMethod": "Mijoter",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/chocolat_chaud_vanille.webp",
+      "ingredients": [
+        "200ml de lait",
+        "50g de chocolat noir",
+        "1/2 cuil. à café de vanille liquide",
+        "1 cuil. à soupe de sucre"
+      ],
+      "steps": [
+        "Faire chauffer le lait dans une petite casserole.",
+        "Ajouter le chocolat en morceaux et mélanger jusqu'à ce qu'il soit complètement fondu.",
+        "Ajouter la vanille et le sucre.",
+        "Mélanger et servir chaud."
+      ],
+      "country": "Global"
+    },
+    {
+      "id": "46",
+      "title": "Jus de grenade",
+      "type": "Boisson",
+      "portions": 2,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 3,
+      "photo": "/meals/jus_grenade.webp",
+      "ingredients": [
+        "2 grenades",
+        "1 cuil. à soupe de miel"
+      ],
+      "steps": [
+        "Couper les grenades en deux et extraire les graines.",
+        "Presser les graines dans un extracteur de jus ou un mixeur.",
+        "Ajouter le miel et mélanger.",
+        "Servir immédiatement."
+      ],
+      "country": "Global"
+    },
+    {
+      "id": "47",
+      "title": "Lassi à la mangue",
+      "type": "Boisson",
+      "portions": 2,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/lassi_mangue.webp",
+      "ingredients": [
+        "1 mangue",
+        "200ml de yaourt nature",
+        "100ml d'eau froide",
+        "1 cuil. à soupe de sucre"
+      ],
+      "steps": [
+        "Peler et couper la mangue en morceaux.",
+        "Mettre la mangue, le yaourt, l'eau et le sucre dans un mixeur.",
+        "Mixer jusqu'à obtenir une texture lisse.",
+        "Servir immédiatement dans des verres."
+      ],
+      "country": "Inde"
+    },
+    {
+      "id": "48",
+      "title": "Milkshake à la vanille",
+      "type": "Boisson",
+      "portions": 2,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/milkshake_vanille.webp",
+      "ingredients": [
+        "200ml de lait",
+        "2 boules de glace à la vanille",
+        "1 cuil. à soupe de sucre"
+      ],
+      "steps": [
+        "Mettre le lait, la glace à la vanille et le sucre dans un mixeur.",
+        "Mixer jusqu'à obtenir une texture lisse.",
+        "Servir immédiatement dans des verres."
+      ],
+      "country": "Global"
+    },
+    {
+      "id": "49",
+      "title": "Jus de pomme maison",
+      "type": "Boisson",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 0
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 1,
+      "photo": "/meals/jus_pomme.webp",
+      "ingredients": [
+        "6 pommes",
+        "1/2 citron"
+      ],
+      "steps": [
+        "Laver et couper les pommes en morceaux.",
+        "Presser les pommes dans un extracteur de jus.",
+        "Ajouter le jus de citron pour éviter l'oxydation.",
+        "Servir immédiatement."
+      ],
+      "country": "Global"
+    },
+    {
+      "id": "50",
+      "title": "Thé glacé à la pêche",
+      "type": "Boisson",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookingMethod": "Aucune",
+      "difficulty": 1,
+      "cost": 2,
+      "photo": "/meals/the_glace_peche.webp",
+      "ingredients": [
+        "2 pêches",
+        "2 sachets de thé noir",
+        "1 cuil. à soupe de sucre",
+        "Glaçons"
+      ],
+      "steps": [
+        "Peler et couper les pêches en morceaux.",
+        "Faire infuser les sachets de thé dans 1 litre d'eau bouillante.",
+        "Ajouter le sucre et les morceaux de pêche.",
+        "Laisser refroidir, retirer les sachets de thé et servir avec des glaçons."
+      ],
+      "country": "Global"
+    },
+    {
+      "id": "51",
+      "title": "Pain de campagne",
+      "type": "Pain & viennoiserie",
+      "portions": 1,
+      "prepTime": {
+        "hours": 1,
+        "minutes": 0
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 40
+      },
+      "cookingMethod": "Four",
+      "difficulty": 3,
+      "cost": 2,
+      "photo": "/meals/pain_de_campagne.webp",
+      "ingredients": [
+        "500g de farine de blé",
+        "10g de sel",
+        "10g de levure de boulanger",
+        "350ml d'eau tiède",
+        "1 cuil. à soupe d'huile d'olive"
+      ],
+      "steps": [
+        "Mélanger la farine, le sel et la levure dans un grand saladier.",
+        "Ajouter l'eau tiède et l'huile d'olive, puis pétrir la pâte pendant 10 minutes.",
+        "Couvrir la pâte d'un torchon et laisser reposer 1 heure dans un endroit chaud.",
+        "Préchauffer le four à 220°C.",
+        "Former un pain rond ou ovale et le déposer sur une plaque de cuisson.",
+        "Faire cuire pendant 40 minutes jusqu'à ce que le pain soit doré et sonne creux lorsqu'on tape dessous."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "52",
+      "title": "Brioche maison",
+      "type": "Pain & viennoiserie",
+      "portions": 8,
+      "prepTime": {
+        "hours": 1,
+        "minutes": 30
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 25
+      },
+      "cookingMethod": "Four",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/brioche_maison.webp",
+      "ingredients": [
+        "500g de farine",
+        "50g de sucre",
+        "2 œufs",
+        "100g de beurre",
+        "20g de levure de boulanger",
+        "200ml de lait",
+        "1 cuil. à café de sel"
+      ],
+      "steps": [
+        "Faire chauffer le lait et y dissoudre la levure.",
+        "Mélanger la farine, le sucre et le sel dans un grand bol.",
+        "Ajouter les œufs, le lait avec la levure, et pétrir la pâte jusqu'à ce qu'elle soit lisse.",
+        "Ajouter le beurre en morceaux et pétrir encore 10 minutes.",
+        "Laisser la pâte reposer pendant 1 heure dans un endroit chaud.",
+        "Préchauffer le four à 180°C et façonner la pâte en forme de boule ou de tresses.",
+        "Faire cuire pendant 25 minutes ou jusqu'à ce que la brioche soit bien dorée."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "53",
+      "title": "Pain au chocolat",
+      "type": "Pain & viennoiserie",
+      "portions": 6,
+      "prepTime": {
+        "hours": 2,
+        "minutes": 30
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookingMethod": "Four",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/pain_au_chocolat.webp",
+      "ingredients": [
+        "250g de pâte feuilletée",
+        "100g de chocolat noir",
+        "1 jaune d'œuf"
+      ],
+      "steps": [
+        "Préchauffer le four à 200°C.",
+        "Étaler la pâte feuilletée et découper des rectangles de taille égale.",
+        "Placer un morceau de chocolat au centre de chaque rectangle.",
+        "Replier la pâte pour former des bâtonnets et sceller les bords.",
+        "Badigeonner les pains au chocolat avec le jaune d'œuf.",
+        "Faire cuire pendant 15 minutes jusqu'à ce que la pâte soit dorée."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "54",
+      "title": "Pain de mie",
+      "type": "Pain & viennoiserie",
+      "portions": 8,
+      "prepTime": {
+        "hours": 1,
+        "minutes": 0
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookingMethod": "Four",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/pain_de_mie.webp",
+      "ingredients": [
+        "500g de farine",
+        "10g de levure de boulanger",
+        "300ml de lait",
+        "50g de beurre",
+        "1 cuil. à soupe de sucre",
+        "10g de sel"
+      ],
+      "steps": [
+        "Dissoudre la levure dans le lait tiède avec le sucre.",
+        "Mélanger la farine et le sel, puis ajouter le mélange de levure.",
+        "Pétrir la pâte jusqu'à ce qu'elle soit lisse et homogène.",
+        "Ajouter le beurre fondu et continuer à pétrir pendant 10 minutes.",
+        "Laisser reposer la pâte pendant 1 heure.",
+        "Préchauffer le four à 180°C et cuire le pain pendant 30 minutes."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "55",
+      "title": "Pain pita",
+      "type": "Pain & viennoiserie",
+      "portions": 6,
+      "prepTime": {
+        "hours": 1,
+        "minutes": 0
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookingMethod": "Poêle",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/pain_pita.webp",
+      "ingredients": [
+        "250g de farine",
+        "5g de levure de boulanger",
+        "1 cuil. à café de sel",
+        "150ml d'eau tiède",
+        "1 cuil. à soupe d'huile d'olive"
+      ],
+      "steps": [
+        "Mélanger la farine, la levure et le sel dans un grand saladier.",
+        "Ajouter l'eau tiède et l'huile d'olive, puis pétrir jusqu'à obtenir une pâte lisse.",
+        "Laisser reposer la pâte pendant 1 heure.",
+        "Diviser la pâte en petites boules et les étaler en cercles de 1 cm d'épaisseur.",
+        "Faire chauffer une poêle à feu moyen et cuire chaque pita 2-3 minutes de chaque côté."
+      ],
+      "country": "Moyen-Orient"
+    },
+    {
+      "id": "56",
+      "title": "Pain au levain",
+      "type": "Pain & viennoiserie",
+      "portions": 1,
+      "prepTime": {
+        "hours": 2,
+        "minutes": 0
+      },
+      "cookTime": {
+        "hours": 1,
+        "minutes": 0
+      },
+      "cookingMethod": "Four",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/pain_levain.webp",
+      "ingredients": [
+        "500g de farine",
+        "350ml d'eau",
+        "150g de levain",
+        "10g de sel"
+      ],
+      "steps": [
+        "Mélanger la farine, le levain, et l'eau dans un grand bol.",
+        "Pétrir la pâte pendant 10 minutes jusqu'à ce qu'elle soit élastique.",
+        "Laisser reposer la pâte pendant 1 heure à température ambiante.",
+        "Préchauffer le four à 250°C, puis enfourner le pain pendant 1 heure."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "57",
+      "title": "Pain viennois",
+      "type": "Pain & viennoiserie",
+      "portions": 1,
+      "prepTime": {
+        "hours": 2,
+        "minutes": 0
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookingMethod": "Four",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/pain_viennois.webp",
+      "ingredients": [
+        "500g de farine",
+        "15g de levure de boulanger",
+        "250ml de lait",
+        "50g de sucre",
+        "100g de beurre",
+        "1 œuf",
+        "1 cuil. à café de sel"
+      ],
+      "steps": [
+        "Mélanger la farine, la levure, et le sucre dans un bol.",
+        "Ajouter le lait tiède, l'œuf, et le beurre fondu.",
+        "Pétrir la pâte pendant 10 minutes et laisser reposer pendant 1 heure.",
+        "Façonner la pâte en un pain allongé et laisser reposer encore 30 minutes.",
+        "Préchauffer le four à 180°C et cuire pendant 30 minutes."
+      ],
+      "country": "Autriche"
+    },
+    {
+      "id": "58",
+      "title": "Pain brioché au fromage",
+      "type": "Pain & viennoiserie",
+      "portions": 8,
+      "prepTime": {
+        "hours": 1,
+        "minutes": 30
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 25
+      },
+      "cookingMethod": "Four",
+      "difficulty": 2,
+      "cost": 3,
+      "photo": "/meals/pain_brioche_fromage.webp",
+      "ingredients": [
+        "500g de farine",
+        "10g de levure de boulanger",
+        "200ml de lait",
+        "100g de beurre",
+        "100g de fromage râpé",
+        "1 œuf",
+        "1 cuil. à café de sel"
+      ],
+      "steps": [
+        "Mélanger la farine, la levure, et le sel.",
+        "Ajouter le lait tiède et le beurre fondu, puis pétrir jusqu'à ce que la pâte soit lisse.",
+        "Laisser reposer pendant 1 heure.",
+        "Ajouter le fromage râpé et façonner la pâte en un pain.",
+        "Faire cuire à 180°C pendant 25 minutes."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "59",
+      "title": "Pain naan",
+      "type": "Pain & viennoiserie",
+      "portions": 6,
+      "prepTime": {
+        "hours": 1,
+        "minutes": 0
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookingMethod": "Poêle",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/pain_naan.webp",
+      "ingredients": [
+        "250g de farine",
+        "5g de levure de boulanger",
+        "1 cuil. à soupe de sucre",
+        "100ml de yaourt nature",
+        "2 cuil. à soupe de lait",
+        "2 cuil. à soupe de beurre fondu",
+        "1 cuil. à café de sel"
+      ],
+      "steps": [
+        "Mélanger la farine, la levure, le sucre, le sel et ajouter les autres ingrédients.",
+        "Pétrir la pâte pendant 10 minutes.",
+        "Laisser reposer pendant 1 heure.",
+        "Façonner la pâte en boules et les étaler en disques.",
+        "Faire cuire dans une poêle chaude pendant 2-3 minutes de chaque côté."
+      ],
+      "country": "Inde"
+    },
+    {
+      "id": "60",
+      "title": "Pain aux raisins",
+      "type": "Pain & viennoiserie",
+      "portions": 8,
+      "prepTime": {
+        "hours": 2,
+        "minutes": 0
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 25
+      },
+      "cookingMethod": "Four",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/pain_aux_raisins.webp",
+      "ingredients": [
+        "500g de farine",
+        "10g de levure de boulanger",
+        "250ml de lait",
+        "50g de sucre",
+        "100g de beurre",
+        "100g de raisins secs",
+        "1 œuf",
+        "1 cuil. à café de sel"
+      ],
+      "steps": [
+        "Mélanger la farine, la levure, et le sucre dans un bol.",
+        "Ajouter le lait tiède, l'œuf, et le beurre fondu.",
+        "Pétrir la pâte pendant 10 minutes et laisser reposer pendant 1 heure.",
+        "Ajouter les raisins secs et façonner la pâte en un pain allongé.",
+        "Laisser reposer encore 30 minutes.",
+        "Préchauffer le four à 180°C et cuire pendant 25 minutes."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "61",
+      "title": "Beignets de courgettes",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookingMethod": "Friture",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/beignets_courgettes.webp",
+      "ingredients": [
+        "2 courgettes",
+        "100g de farine",
+        "2 œufs",
+        "1 cuil. à café de levure chimique",
+        "Sel et poivre",
+        "Huile de friture"
+      ],
+      "steps": [
+        "Laver et râper les courgettes.",
+        "Dans un saladier, mélanger la farine, la levure, les œufs, le sel et le poivre.",
+        "Ajouter les courgettes râpées et mélanger jusqu'à obtenir une pâte homogène.",
+        "Faire chauffer l'huile dans une poêle à feu moyen.",
+        "Former des petites boules de pâte et les plonger dans l'huile chaude.",
+        "Faire frire les beignets jusqu'à ce qu'ils soient dorés, puis les égoutter sur du papier absorbant."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "62",
+      "title": "Frites maison",
+      "type": "Accompagnement",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookingMethod": "Friture",
+      "difficulty": 1,
+      "cost": 1,
+      "photo": "/meals/frites_maison.webp",
+      "ingredients": [
+        "4 pommes de terre",
+        "Huile de friture",
+        "Sel"
+      ],
+      "steps": [
+        "Éplucher et couper les pommes de terre en frites.",
+        "Faire chauffer l'huile dans une friteuse ou une grande poêle.",
+        "Plonger les frites dans l'huile chaude et faire frire jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Les égoutter sur du papier absorbant et les saler immédiatement."
+      ],
+      "country": "Global"
+    },
+    {
+      "id": "63",
+      "title": "Poulet frit à l'américaine",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookingMethod": "Friture",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/poulet_frit_americaine.webp",
+      "ingredients": [
+        "4 cuisses de poulet",
+        "200g de farine",
+        "1 cuil. à café de paprika",
+        "1 cuil. à café d'ail en poudre",
+        "1 cuil. à café de sel",
+        "1 cuil. à café de poivre",
+        "1 œuf",
+        "250ml de lait",
+        "Huile de friture"
+      ],
+      "steps": [
+        "Mélanger la farine, le paprika, l'ail en poudre, le sel et le poivre dans un bol.",
+        "Battre l'œuf avec le lait dans un autre bol.",
+        "Tremper les cuisses de poulet dans le mélange œuf-lait, puis les enrober de la préparation à base de farine.",
+        "Faire chauffer l'huile dans une grande poêle à feu moyen.",
+        "Faire frire les cuisses de poulet jusqu'à ce qu'elles soient dorées et croustillantes, environ 15-20 minutes.",
+        "Égoutter les morceaux de poulet sur du papier absorbant avant de servir."
+      ],
+      "country": "États-Unis"
+    },
+    {
+      "id": "64",
+      "title": "Tempura de crevettes",
+      "type": "Entrée",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookingMethod": "Friture",
+      "difficulty": 2,
+      "cost": 3,
+      "photo": "/meals/tempura_crevettes.webp",
+      "ingredients": [
+        "12 crevettes",
+        "100g de farine",
+        "50g de fécule de maïs",
+        "1 œuf",
+        "200ml d'eau glacée",
+        "Huile de friture",
+        "Sauce soja"
+      ],
+      "steps": [
+        "Décortiquer les crevettes et les déveiner.",
+        "Mélanger la farine, la fécule et l'œuf dans un bol.",
+        "Ajouter l'eau glacée et mélanger rapidement pour obtenir une pâte légère.",
+        "Faire chauffer l'huile dans une friteuse ou une grande poêle.",
+        "Tremper les crevettes dans la pâte à tempura et les plonger dans l'huile chaude.",
+        "Faire frire pendant 2-3 minutes jusqu'à ce que la pâte soit dorée et croustillante.",
+        "Servir immédiatement avec un peu de sauce soja."
+      ],
+      "country": "Japon"
+    },
+    {
+      "id": "65",
+      "title": "Beignets de banane",
+      "type": "Dessert",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookingMethod": "Friture",
+      "difficulty": 1,
+      "cost": 1,
+      "photo": "/meals/beignets_banane.webp",
+      "ingredients": [
+        "2 bananes bien mûres",
+        "100g de farine",
+        "1 cuil. à soupe de sucre",
+        "1 œuf",
+        "100ml de lait",
+        "Huile de friture"
+      ],
+      "steps": [
+        "Peler et couper les bananes en rondelles.",
+        "Dans un bol, mélanger la farine, le sucre, l'œuf et le lait pour obtenir une pâte légère.",
+        "Faire chauffer l'huile dans une poêle.",
+        "Tremper les rondelles de banane dans la pâte et les faire frire jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter les beignets sur du papier absorbant et servir chaud."
+      ],
+      "country": "Global"
+    },
+    {
+      "id": "66",
+      "title": "Pommes de terre croustillantes",
+      "type": "Accompagnement",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookingMethod": "AirFryer",
+      "difficulty": 1,
+      "cost": 1,
+      "photo": "/meals/pommes_de_terre.webp",
+      "ingredients": [
+        "4 pommes de terre",
+        "2 cuil. à soupe d'huile d'olive",
+        "1 cuil. à soupe de paprika",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Laver et couper les pommes de terre en morceaux de taille égale.",
+        "Mélanger les pommes de terre avec l'huile d'olive, le paprika, le sel et le poivre.",
+        "Placer les pommes de terre dans le panier de l'Airfryer et cuire à 180°C pendant 20 minutes, en secouant le panier à mi-cuisson.",
+        "Servir chaud."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "67",
+      "title": "Croustilles de courgette",
+      "type": "Apéritif",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookingMethod": "AirFryer",
+      "difficulty": 2,
+      "cost": 1,
+      "photo": "/meals/croustilles_courgette.webp",
+      "ingredients": [
+        "2 courgettes",
+        "1 œuf",
+        "50g de chapelure",
+        "50g de parmesan râpé",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Couper les courgettes en fines tranches.",
+        "Battre l'œuf dans un bol et mélanger la chapelure avec le parmesan dans un autre.",
+        "Tremper les tranches de courgette dans l'œuf, puis les enrober du mélange chapelure-parmesan.",
+        "Placer les tranches dans le panier de l'Airfryer et cuire à 180°C pendant 10 minutes, en retournant à mi-cuisson.",
+        "Servir chaud avec une sauce dip."
+      ],
+      "country": "Italie"
+    },
+    {
+      "id": "68",
+      "title": "Filets de poulet panés",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookingMethod": "AirFryer",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/filets_poulet_panes.webp",
+      "ingredients": [
+        "4 filets de poulet",
+        "1 œuf",
+        "100g de farine",
+        "100g de chapelure",
+        "Sel et poivre",
+        "1 cuil. à soupe de paprika"
+      ],
+      "steps": [
+        "Assaisonner les filets de poulet avec du sel, du poivre et du paprika.",
+        "Passer les filets dans la farine, puis dans l'œuf battu, et enfin dans la chapelure.",
+        "Placer les filets panés dans le panier de l'Airfryer et cuire à 200°C pendant 15 minutes, en les retournant à mi-cuisson.",
+        "Servir avec une salade ou des frites."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "69",
+      "title": "Churros",
+      "type": "Dessert",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 25
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookingMethod": "AirFryer",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/churros.webp",
+      "ingredients": [
+        "250g de farine",
+        "250ml d'eau",
+        "50g de beurre",
+        "1 cuil. à soupe de sucre",
+        "1 cuil. à soupe de vanille",
+        "1 pincée de sel",
+        "Sucre en poudre (pour enrober)"
+      ],
+      "steps": [
+        "Faire chauffer l'eau, le beurre, le sucre et le sel dans une casserole jusqu'à ce que le beurre soit fondu.",
+        "Ajouter la farine et mélanger jusqu'à obtenir une pâte homogène.",
+        "Laisser refroidir légèrement, puis ajouter la vanille et mélanger à nouveau.",
+        "Transférer la pâte dans une poche à douille et former des churros sur une feuille de papier cuisson.",
+        "Placer les churros dans le panier de l'Airfryer et cuire à 180°C pendant 10 minutes.",
+        "Les sortir et les enrober de sucre en poudre avant de servir."
+      ],
+      "country": "Espagne"
+    },
+    {
+      "id": "70",
+      "title": "Poulet au curry",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookingMethod": "Mijoter",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/poulet_curry.webp",
+      "ingredients": [
+        "4 filets de poulet",
+        "1 oignon",
+        "2 gousses d'ail",
+        "1 boîte de lait de coco",
+        "2 cuil. à soupe de pâte de curry",
+        "Sel et poivre",
+        "Huile d'olive"
+      ],
+      "steps": [
+        "Faire chauffer l'huile dans une grande poêle et y faire revenir l'oignon et l'ail hachés.",
+        "Ajouter les filets de poulet coupés en morceaux et les faire dorer.",
+        "Incorporer la pâte de curry et bien mélanger.",
+        "Verser le lait de coco, saler et poivrer, puis laisser mijoter à feu doux pendant 30 minutes.",
+        "Servir chaud avec du riz basmati."
+      ],
+      "country": "Inde"
+    },
+    {
+      "id": "71",
+      "title": "Coq au vin",
+      "type": "Plat principal",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 2,
+        "minutes": 30
+      },
+      "cookingMethod": "Mijoter",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/coq_au_vin.webp",
+      "ingredients": [
+        "1 coq coupé en morceaux (ou poulet)",
+        "200g de lardons",
+        "1 bouteille de vin rouge (Bourgogne ou autre vin de qualité)",
+        "2 oignons",
+        "3 carottes",
+        "2 gousses d'ail",
+        "1 bouquet garni (thym, laurier)",
+        "1 cuil. à soupe de farine",
+        "1 cuil. à soupe d'huile d'olive",
+        "150g de champignons de Paris",
+        "150g d'oignons grelots",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Faire chauffer l'huile d'olive dans une grande cocotte et y faire dorer les morceaux de coq sur toutes les faces.",
+        "Ajouter les lardons et faire revenir jusqu'à ce qu'ils soient légèrement dorés.",
+        "Incorporer les oignons et les carottes coupés en morceaux, puis l'ail haché, et laisser cuire 5 minutes.",
+        "Saupoudrer de farine et bien mélanger pour enrober la viande et les légumes.",
+        "Verser le vin rouge dans la cocotte, ajouter le bouquet garni, saler et poivrer.",
+        "Porter à ébullition, puis réduire la chaleur et laisser mijoter à couvert pendant 2 heures.",
+        "Faire revenir les champignons et les oignons grelots dans une poêle avec un peu de beurre.",
+        "Ajouter les champignons et les oignons grelots dans la cocotte 30 minutes avant la fin de la cuisson.",
+        "Goûter et ajuster l'assaisonnement avant de servir chaud, accompagné de pommes de terre ou de pâtes."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "72",
+      "title": "Blanquette de veau",
+      "type": "Plat principal",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookTime": {
+        "hours": 2,
+        "minutes": 0
+      },
+      "cookingMethod": "Mijoter",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/blanquette_de_veau.webp",
+      "ingredients": [
+        "1 kg de veau (épaule ou collier)",
+        "1 oignon",
+        "2 carottes",
+        "1 bouquet garni (thym, laurier)",
+        "1 cuil. à soupe d'huile d'olive",
+        "1 cuil. à soupe de beurre",
+        "1 litre de bouillon de volaille",
+        "200 ml de crème fraîche épaisse",
+        "1 jaune d'œuf",
+        "1 cuil. à soupe de farine",
+        "Sel et poivre",
+        "100g de champignons de Paris"
+      ],
+      "steps": [
+        "Couper la viande de veau en morceaux et faire chauffer l'huile d'olive dans une grande cocotte.",
+        "Faire revenir les morceaux de veau jusqu'à ce qu'ils soient légèrement dorés.",
+        "Ajouter l'oignon coupé en deux, les carottes coupées en rondelles et le bouquet garni.",
+        "Verser le bouillon de volaille dans la cocotte, porter à ébullition, puis réduire le feu et laisser mijoter à couvert pendant 1h30.",
+        "Pendant ce temps, faire fondre le beurre dans une poêle et y faire revenir les champignons de Paris émincés jusqu'à ce qu'ils soient tendres.",
+        "Ajouter les champignons à la cocotte 30 minutes avant la fin de la cuisson.",
+        "Une fois la viande cuite, retirer les morceaux de veau de la cocotte et les réserver.",
+        "Filtrer le bouillon pour enlever les légumes et le bouquet garni, puis le verser de nouveau dans la cocotte.",
+        "Dans un bol, mélanger la crème fraîche, le jaune d'œuf et la farine pour obtenir une sauce crémeuse.",
+        "Incorporer ce mélange à la cocotte et laisser mijoter à feu doux pendant 10 minutes pour épaissir la sauce.",
+        "Réajuster l'assaisonnement avec du sel et du poivre, puis remettre la viande dans la cocotte.",
+        "Servir chaud avec du riz ou des pommes de terre vapeur."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "73",
+      "title": "Ragoût de porc aux légumes",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 1,
+        "minutes": 30
+      },
+      "cookingMethod": "Mijoter",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/ragout_porc_legumes.webp",
+      "ingredients": [
+        "500g de viande de porc (épaule ou collier)",
+        "2 pommes de terre",
+        "2 carottes",
+        "1 oignon",
+        "2 gousses d'ail",
+        "1 cuil. à soupe de concentré de tomate",
+        "1 cuil. à soupe d'huile d'olive",
+        "1 bouquet garni",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Couper la viande de porc en morceaux et faire revenir dans l'huile d'olive avec l'oignon et l'ail hachés.",
+        "Ajouter les carottes et les pommes de terre coupées en dés.",
+        "Incorporer le concentré de tomate, le bouquet garni, saler et poivrer.",
+        "Ajouter de l'eau pour couvrir les ingrédients et laisser mijoter pendant 1h30 à feu doux.",
+        "Servir chaud."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "93",
+      "title": "Navarin d'agneau",
+      "type": "Plat principal",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookTime": {
+        "hours": 2,
+        "minutes": 0
+      },
+      "cookingMethod": "Mijoter",
+      "difficulty": 3,
+      "cost": 3,
+      "photo": "/meals/navarin_agneau.webp",
+      "ingredients": [
+        "1 kg d'épaule d'agneau désossée",
+        "500g de carottes",
+        "300g de navets",
+        "2 oignons",
+        "2 gousses d'ail",
+        "1 bouquet garni (thym, laurier)",
+        "1 cuil. à soupe d'huile d'olive",
+        "1 cuil. à soupe de farine",
+        "1 litre de bouillon de légumes",
+        "200g de petits pois",
+        "300g de pommes de terre",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Couper l'épaule d'agneau en morceaux de taille moyenne.",
+        "Faire chauffer l'huile d'olive dans une grande cocotte et y faire revenir les morceaux d'agneau jusqu'à ce qu'ils soient dorés.",
+        "Ajouter les oignons émincés, l'ail haché et les carottes et navets coupés en rondelles. Faire revenir 5 minutes.",
+        "Saupoudrer la viande et les légumes de farine et bien mélanger.",
+        "Verser le bouillon de légumes dans la cocotte, ajouter le bouquet garni, saler et poivrer.",
+        "Porter à ébullition, puis réduire la chaleur et laisser mijoter à couvert pendant 1h30.",
+        "Ajouter les pommes de terre coupées en morceaux et les petits pois 30 minutes avant la fin de la cuisson.",
+        "Laisser mijoter jusqu'à ce que la viande soit tendre et les légumes cuits.",
+        "Retirer le bouquet garni, ajuster l'assaisonnement si nécessaire, puis servir chaud."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "75",
+      "title": "Dumplings aux légumes",
+      "type": "Entrée",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookingMethod": "Vapeur",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/dumplings_legumes.webp",
+      "ingredients": [
+        "200g de chou chinois",
+        "1 carotte",
+        "1 cuil. à soupe de sauce soja",
+        "100g de champignons shiitake",
+        "200g de farine de blé",
+        "1 cuil. à soupe d'huile de sésame",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Hacher finement le chou, la carotte et les champignons.",
+        "Mélanger les légumes avec la sauce soja, l'huile de sésame, le sel et le poivre.",
+        "Préparer la pâte à dumplings en mélangeant la farine avec un peu d'eau.",
+        "Former des petits raviolis avec la pâte et la farce.",
+        "Cuire les dumplings à la vapeur pendant 10 à 15 minutes."
+      ],
+      "country": "Chine"
+    },
+    {
+      "id": "76",
+      "title": "Légumes vapeur aux herbes",
+      "type": "Accompagnement",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookingMethod": "Vapeur",
+      "difficulty": 1,
+      "cost": 1,
+      "photo": "/meals/legumes_vapeur_herbes.webp",
+      "ingredients": [
+        "1 brocoli",
+        "2 carottes",
+        "1 courgette",
+        "1 cuil. à soupe de beurre",
+        "1 cuil. à soupe de thym frais",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Couper les légumes en morceaux et les placer dans un panier vapeur.",
+        "Faire cuire à la vapeur pendant 10 à 15 minutes.",
+        "Assaisonner avec le beurre, le thym, le sel et le poivre avant de servir."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "77",
+      "title": "Saumon vapeur aux épices",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 5
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookingMethod": "Vapeur",
+      "difficulty": 1,
+      "cost": 3,
+      "photo": "/meals/saumon_vapeur.webp",
+      "ingredients": [
+        "4 filets de saumon",
+        "1 cuil. à soupe de paprika",
+        "1 cuil. à soupe de cumin",
+        "1 cuil. à soupe de sel",
+        "1 cuil. à soupe de poivre noir"
+      ],
+      "steps": [
+        "Assaisonner les filets de saumon avec le paprika, le cumin, le sel et le poivre.",
+        "Placer les filets dans un panier vapeur.",
+        "Cuire à la vapeur pendant 10 minutes, jusqu'à ce que le saumon soit cuit à point.",
+        "Servir avec du riz ou des légumes vapeur."
+      ],
+      "country": "Norvège"
+    },
+    {
+      "id": "78",
+      "title": "Pouding au caramel vapeur",
+      "type": "Dessert",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 30
+      },
+      "cookingMethod": "Vapeur",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/pouding_caramel_vapeur.webp",
+      "ingredients": [
+        "200g de sucre",
+        "3 œufs",
+        "50g de beurre",
+        "250ml de lait",
+        "1 cuil. à soupe de vanille"
+      ],
+      "steps": [
+        "Faire fondre le sucre dans une casserole pour obtenir un caramel.",
+        "Beurrer un moule et verser le caramel au fond.",
+        "Mélanger les œufs, le lait, le beurre fondu et la vanille.",
+        "Verser la préparation dans le moule et cuire à la vapeur pendant 30 minutes."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "79",
+      "title": "Buns chinois à la vapeur",
+      "type": "Pain & viennoiserie",
+      "portions": 6,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookingMethod": "Vapeur",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/buns_chinois_vapeur.webp",
+      "ingredients": [
+        "300g de farine",
+        "150ml d'eau",
+        "2 cuil. à soupe de sucre",
+        "1 cuil. à soupe de levure",
+        "1 cuil. à soupe d'huile"
+      ],
+      "steps": [
+        "Mélanger la farine, l'eau, le sucre et la levure pour former une pâte.",
+        "Laisser reposer la pâte pendant 1 heure.",
+        "Diviser la pâte en petites boules et les cuire à la vapeur pendant 15 minutes.",
+        "Servir avec une farce ou nature."
+      ],
+      "country": "Chine"
+    },
+    {
+      "id": "80",
+      "title": "Brochettes de poulet marinées",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookingMethod": "Grillade",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/brochettes_poulet_marinees.webp",
+      "ingredients": [
+        "600g de blanc de poulet",
+        "1 citron",
+        "3 cuil. à soupe d'huile d'olive",
+        "2 gousses d'ail",
+        "1 cuil. à soupe de thym frais",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Couper le poulet en cubes et le mettre dans un bol.",
+        "Presser le citron et ajouter le jus, l'huile d'olive, l'ail haché, le thym, le sel et le poivre.",
+        "Mélanger et laisser mariner pendant 1 heure.",
+        "Former des brochettes avec les morceaux de poulet.",
+        "Faire cuire les brochettes sur le grill pendant 12 à 15 minutes, en les retournant régulièrement."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "81",
+      "title": "Côtes de porc grillées au miel et moutarde",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "cookingMethod": "Grillade",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/cotes_porc_grillees.webp",
+      "ingredients": [
+        "4 côtes de porc",
+        "2 cuil. à soupe de miel",
+        "2 cuil. à soupe de moutarde",
+        "1 cuil. à soupe de vinaigre balsamique",
+        "1 cuil. à soupe d'huile d'olive",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Mélanger le miel, la moutarde, le vinaigre balsamique, l'huile d'olive, le sel et le poivre.",
+        "Badigeonner les côtes de porc avec la marinade et laisser reposer 10 minutes.",
+        "Faire cuire les côtes de porc sur le grill pendant 20 minutes, en les retournant et en les badigeonnant avec la marinade."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "82",
+      "title": "Poisson grillé aux herbes de Provence",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookingMethod": "Grillade",
+      "difficulty": 2,
+      "cost": 3,
+      "photo": "/meals/poisson_grille_herbes_provence.webp",
+      "ingredients": [
+        "4 filets de poisson blanc (cabillaud, merlan, etc.)",
+        "2 cuil. à soupe d'huile d'olive",
+        "1 cuil. à soupe de herbes de Provence",
+        "1 citron",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Badigeonner les filets de poisson avec l'huile d'olive, les herbes de Provence, le sel et le poivre.",
+        "Presser le citron sur le poisson.",
+        "Faire cuire le poisson sur le grill pendant 10 à 15 minutes, en le retournant à mi-cuisson."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "83",
+      "title": "Burgers maison grillés",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookingMethod": "Grillade",
+      "difficulty": 2,
+      "cost": 2,
+      "photo": "/meals/burgers_grilles.webp",
+      "ingredients": [
+        "500g de viande hachée de bœuf",
+        "4 pains à burger",
+        "4 tranches de fromage cheddar",
+        "1 oignon",
+        "1 tomate",
+        "Sel et poivre",
+        "Sauce ketchup et mayonnaise"
+      ],
+      "steps": [
+        "Former 4 steaks avec la viande hachée, assaisonner avec du sel et du poivre.",
+        "Faire cuire les steaks sur le grill pendant 4 à 5 minutes de chaque côté.",
+        "Griller légèrement les pains à burger.",
+        "Monter les burgers avec le steak, une tranche de fromage, une rondelle de tomate et d'oignon.",
+        "Ajouter de la sauce ketchup et mayonnaise avant de servir."
+      ],
+      "country": "États-Unis"
+    },
+    {
+      "id": "84",
+      "title": "Légumes grillés",
+      "type": "Accompagnement",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookingMethod": "Grillade",
+      "difficulty": 1,
+      "cost": 1,
+      "photo": "/meals/legumes_grilles.webp",
+      "ingredients": [
+        "1 courgette",
+        "1 aubergine",
+        "1 poivron rouge",
+        "1 poivron jaune",
+        "2 cuil. à soupe d'huile d'olive",
+        "Sel et poivre",
+        "Herbes de Provence"
+      ],
+      "steps": [
+        "Couper les légumes en tranches épaisses.",
+        "Badigeonner les légumes d'huile d'olive et les assaisonner avec du sel, du poivre et des herbes de Provence.",
+        "Faire cuire les légumes sur le grill pendant 12 à 15 minutes, en les retournant à mi-cuisson."
+      ],
+      "country": "France"
+    },
+    {
+      "id": "85",
+      "title": "Brochettes de crevettes grillées",
+      "type": "Plat principal",
+      "portions": 4,
+      "prepTime": {
+        "hours": 0,
+        "minutes": 15
+      },
+      "cookTime": {
+        "hours": 0,
+        "minutes": 10
+      },
+      "cookingMethod": "Grillade",
+      "difficulty": 2,
+      "cost": 3,
+      "photo": "/meals/brochettes_crevettes_grillees.webp",
+      "ingredients": [
+        "500g de crevettes décortiquées",
+        "2 cuil. à soupe d'huile d'olive",
+        "1 cuil. à soupe de paprika",
+        "1 cuil. à soupe de jus de citron",
+        "Sel et poivre"
+      ],
+      "steps": [
+        "Mélanger les crevettes avec l'huile d'olive, le paprika, le jus de citron, le sel et le poivre.",
+        "Former des brochettes avec les crevettes et les faire cuire sur le grill pendant 6 à 8 minutes.",
+        "Servir avec une sauce à base de yaourt ou de sauce piquante."
+      ],
+      "country": "Espagne"
+    }
+  ]
+}

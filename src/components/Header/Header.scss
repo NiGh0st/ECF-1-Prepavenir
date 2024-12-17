@@ -1,0 +1,200 @@
+$primary-color: #ed2828;
+$secondary-color: #323131;
+$background-color: #f9f9f9;
+
+.header {
+  display: flex;
+  width: 100%;
+
+  &__container {
+    display: grid;
+    margin: 0 auto;
+    width: 70rem;
+    padding: 1rem 0;
+    align-items: center;
+
+    &__logo {
+      grid-area: 1 / 1 / 2 / 2;
+      justify-self: start;
+
+      img {
+        width: 180px;
+        overflow: hidden;
+        transform: translatey(0px);
+        animation: float 10s ease-in-out infinite;
+
+        @keyframes float {
+          0% {
+            transform: translatey(6px);
+          }
+          25% {
+            transform: translatey(2px);
+          }
+          50% {
+            transform: translatey(6px);
+          }
+          75% {
+            transform: translatey(2px);
+          }
+          100% {
+            transform: translatey(6px);
+          }
+        }
+      }
+    }
+
+    &__search-bar {
+      grid-area: 1 / 2 / 2 / 3;
+      position: relative;
+      justify-self: center;
+
+      input {
+        width: 350px;
+        max-width: 400px;
+        padding: 10px;
+        font-size: 1rem;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        transition: all 0.1s ease-in;
+
+        &::placeholder {
+          text-align: center;
+          font-size: 0.8rem;
+          padding-right: 25px;
+        }
+
+        &:focus {
+          outline: none;
+          border-bottom: 3px solid #9E0927;;
+        }
+      }
+
+      button {
+        border: none;
+        background-color: #FFFFFF;
+        cursor: pointer;
+
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+
+      .search-icon-btn {
+        position: absolute;
+        top: 50%;
+        right: 0.5rem;
+        transform: translateY(-50%);
+        background: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: color 0.3s ease;
+
+        .search-icon {
+          font-size: 1.2rem;
+        }
+
+        &:active .search-icon {
+          transform: scale(0.95);
+        }
+      }
+
+      .search-suggestions {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: white;
+        border: 1px solid #9E0927;
+        border-radius: 5px;
+        max-height: 200px;
+        overflow-y: auto;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+        margin-top: 0.5rem;
+
+        li {
+          list-style: none;
+          padding: 0.5rem;
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: #ccc;
+          }
+
+          .suggestion-item {
+            display: flex;
+            align-items: center;
+            color: #000000;
+            text-decoration: none;
+
+            img {
+              width: 40px;
+              height: 40px;
+              object-fit: cover;
+              border-radius: 4px;
+            }
+
+            span {
+              font-size: 1rem;
+              margin-left: 0.5rem;
+            }
+          }
+        }
+      }
+    }
+
+
+    &__user-links {
+      grid-area: 1 / 3 / 2 / 4;
+      display: flex;
+      gap: 1rem;
+      justify-self: end;
+
+      a {
+        text-decoration: none;
+      }
+
+      button {
+        background-color: #BB0B2E;
+        border-radius: 15px;
+        border: none;
+        padding: 10px 15px;
+        margin: 10px 0;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+
+        &:hover {
+          background-color: #9E0927;
+          transform: scale(1.05);
+        }
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        color: $secondary-color;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: $primary-color;
+        }
+
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}
+
