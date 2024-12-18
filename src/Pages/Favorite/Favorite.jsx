@@ -1,6 +1,6 @@
 import FavoriteRecipes  from "../../components/FavoriteRecipes/FavoriteRecipes.jsx";
 
-const AddRecipe = () => {
+const Favorite = () => {
     return (
         <div className="home-page">
             <FavoriteRecipes/>
@@ -8,4 +8,4 @@ const AddRecipe = () => {
     );
 };
 
-export default AddRecipe;
+export default Favorite;
