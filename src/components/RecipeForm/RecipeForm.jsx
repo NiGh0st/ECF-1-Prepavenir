@@ -4,17 +4,8 @@ import './RecipeForm.scss';
 const RecipeForm = () => {
     const [step, setStep] = useState(1);
     const [recipeData, setRecipeData] = useState({
-        title: "",
-        type: "",
-        portions: "",
-        prepTime: {hours: "", minutes: ""},
-        cookTime: {hours: "", minutes: ""},
-        cookingMethod: "",
-        difficulty: "",
-        cost: "",
-        photo: "",
-        ingredients: [{name: '', quantity: '', unit: ''}],
-        steps: [''],
+        title: "", type: "", portions: "", prepTime: {hours: "", minutes: ""}, cookTime: {hours: "", minutes: ""},
+        cookingMethod: "", difficulty: "", cost: "", photo: "", ingredients: [{name: '', quantity: '', unit: ''}], steps: [''],
     });
 
     const nextStep = () => setStep(prevStep => prevStep + 1);
@@ -22,11 +13,9 @@ const RecipeForm = () => {
 
     const inputChange = (e) => {
         const {name, value} = e.target;
-
         if (name === 'title') {
             setTitleError(value.length < 3);
         }
-
         setRecipeData((prevData) => ({
             ...prevData,
             [name]: value,
@@ -55,44 +44,6 @@ const RecipeForm = () => {
         }));
     };
 
-    const ingredientChange = (e, index) => {
-        const {name, value} = e.target;
-        const newIngredients = [...recipeData.ingredients];
-        newIngredients[index][name] = value;
-        setRecipeData(prevData => ({
-            ...prevData,
-            ingredients: newIngredients,
-        }));
-    };
-
-    const isStep1Valid = () => {
-        return (
-            recipeData.title.length >= 3 &&
-            recipeData.type &&
-            recipeData.portions &&
-            recipeData.prepTime.hours &&
-            recipeData.prepTime.minutes &&
-            recipeData.cookTime.hours &&
-            recipeData.cookTime.minutes &&
-            recipeData.cookingMethod &&
-            recipeData.difficulty &&
-            recipeData.cost &&
-            recipeData.photo
-        );
-    };
-
-    const isStep2Valid = () => {
-        const ingredientsValid = recipeData.ingredients.every(
-            ingredient => ingredient.name && ingredient.quantity && ingredient.unit
-        );
-
-        const stepsValid = recipeData.steps.every(
-            step => step.trim() !== ''
-        );
-
-        return ingredientsValid && stepsValid;
-    };
-
     const [titleError, setTitleError] = useState(false);
     const [ingredientError, setIngredientError] = useState(false);
     const [stepError, setStepError] = useState(false);
@@ -111,6 +62,25 @@ const RecipeForm = () => {
         }
     };
 
+    const removeIngredient = (index) => {
+        const newIngredients = recipeData.ingredients.filter((_, i) => i !== index);
+        setRecipeData(prevData => ({
+            ...prevData,
+            ingredients: newIngredients,
+        }));
+    };
+
+    const ingredientChange = (e, index) => {
+        const {name, value} = e.target;
+        const newIngredients = [...recipeData.ingredients];
+        newIngredients[index][name] = value;
+        setRecipeData(prevData => ({
+            ...prevData,
+            ingredients: newIngredients,
+        }));
+    };
+
+
     const addStep = () => {
         const lastStep = recipeData.steps[recipeData.steps.length - 1];
 
@@ -125,11 +95,11 @@ const RecipeForm = () => {
         }
     };
 
-    const removeIngredient = (index) => {
-        const newIngredients = recipeData.ingredients.filter((_, i) => i !== index);
+    const removeStep = (index) => {
+        const newSteps = recipeData.steps.filter((_, i) => i !== index);
         setRecipeData(prevData => ({
             ...prevData,
-            ingredients: newIngredients,
+            steps: newSteps,
         }));
     };
 
@@ -143,13 +113,26 @@ const RecipeForm = () => {
         }));
     };
 
-    const removeStep = (index) => {
-        const newSteps = recipeData.steps.filter((_, i) => i !== index);
-        setRecipeData(prevData => ({
-            ...prevData,
-            steps: newSteps,
-        }));
+    const isStep1Valid = () => {
+        return (
+            recipeData.title.length >= 3 && recipeData.type && recipeData.portions && recipeData.prepTime.hours &&
+            recipeData.prepTime.minutes && recipeData.cookTime.hours && recipeData.cookTime.minutes &&
+            recipeData.cookingMethod && recipeData.difficulty && recipeData.cost && recipeData.photo
+        );
     };
+
+    const isStep2Valid = () => {
+        const ingredientsValid = recipeData.ingredients.every(
+            ingredient => ingredient.name && ingredient.quantity && ingredient.unit
+        );
+
+        const stepsValid = recipeData.steps.every(
+            step => step.trim() !== ''
+        );
+
+        return ingredientsValid && stepsValid;
+    };
+
 
     const submitForm = () => {
         const storedRecipes = JSON.parse(localStorage.getItem('recipes')) || [];
