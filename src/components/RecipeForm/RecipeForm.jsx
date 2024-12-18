@@ -216,7 +216,7 @@ const RecipeForm = () => {
                             name="portions"
 
                             min="1" max="20"
-                            placeholder="0-20 minutes"
+                            placeholder="1-20 portions"
                             value={recipeData.portions}
                             onChange={inputChange}
                             className="recipe-form__input"
