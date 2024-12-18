@@ -10,13 +10,13 @@ import './App.css';
 
 const App = () => {
     return (
-        <BrowserRouter>
-            <Header />
-            <main>
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/add-recipe" element={<AddRecipe />} />
-                    <Route path="/recipe/:id" element={<Recipe />} />
+        <BrowserRouter> {/* BrowserRouter pour l'ensemble de l'application */}
+            <Header />  {/* Header pour l'en-tête */}
+            <main> {/* Main pour le contenu */}
+                <Routes> {/* Routes pour la navigation */}
+                    <Route path="/" element={<Home />} /> {/* Route pour la page d'accueil */}
+                    <Route path="/add-recipe" element={<AddRecipe />} /> {/* Route pour la page d'ajout de recette */}
+                    <Route path="/recipe/:id" element={<Recipe />} />   {/* Route pour la page de détail d'une recette */}
                     <Route path="/favorite" element={<Favorite />} /> {/* Route pour la page de favoris */}
                 </Routes>
             </main>
@@ -26,3 +26,4 @@ const App = () => {
 };
 
 export default App;
+
