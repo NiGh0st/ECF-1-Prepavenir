@@ -9,13 +9,7 @@ const RecipeList = () => {
     const [isFiltersVisible, setIsFiltersVisible] = useState(false);
     const [favorites, setFavorites] = useState([]);
     const [filters, setFilters] = useState({
-        type: [],
-        portions: [],
-        time: '',
-        difficulty: [],
-        cost: [],
-        cookingMethod: [],
-        country: [],
+        type: [], portions: [], time: '', difficulty: [], cost: [], cookingMethod: [], country: [],
     });
 
     useEffect(() => {
@@ -63,14 +57,8 @@ const RecipeList = () => {
             const matchesCountry = !filters.country.length || filters.country.includes(recipe.country);
 
             return (
-                matchesSearchQuery &&
-                matchesType &&
-                matchesPortions &&
-                matchesTime &&
-                matchesDifficulty &&
-                matchesCost &&
-                matchesCookingMethod &&
-                matchesCountry
+                matchesSearchQuery && matchesType && matchesPortions && matchesTime &&
+                matchesDifficulty && matchesCost && matchesCookingMethod && matchesCountry
             );
         });
 
